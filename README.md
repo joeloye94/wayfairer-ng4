@@ -1,5 +1,13 @@
-# Ng4Example
+# Wayfairer Angular 4 
+# Pre requisites
+Run npm install -g @angular/cli
 
+This is will install the latest version of angular cli on your computer
+
+Node version: 6.11.3
+Npm  version: 3.10.10
+
+# Wayfairer Angular 4 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
 ## Development server
