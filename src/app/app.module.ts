@@ -6,12 +6,14 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { appRouterModule } from "./app.routes";
+import { TestSassComponent } from './test-sass/test-sass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    appRouterModule.components
+    appRouterModule.components,
+    TestSassComponent
   ],
   imports: [
     BrowserModule,

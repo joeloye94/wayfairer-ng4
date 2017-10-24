@@ -1,0 +1,13 @@
+@import './variables/_variable';
+@import './mixin/_mixin';
+
+$primaryColor: #000000;
+
+body {
+  $primaryColor: #ccc !global;
+  background: $primaryColor;
+}
+
+p {
+  color: $primaryColor;
+}
