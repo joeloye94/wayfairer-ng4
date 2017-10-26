@@ -10,18 +10,18 @@
 
   &:hover{
     background-color: #e68f1a;
-    color:#fff;
+    color:$color-white;
   }
   &:active{
     background-color:#964e0c;
-    color:#fff;
+    color:$color-white;
   }
 
   &:disabled{
     border:0;
     cursor:default;
     background-color:#606060;
-    color:#fff;
+    color:$color-white;
   }
 }
 
@@ -32,24 +32,24 @@
 	letter-spacing:1.2px;
 	cursor:pointer;
 	background-color:#e68f1a;
-	color:#fff;
+	color:$color-white;
 	border-radius:0;
 	padding:1em;
 
   &:hover{
-    background-color: #fff;
+    background-color: $color-white;
     color:#e68f1a;
   }
   &:active{
     background-color:#964e0c;
-    color:#fff;
+    color:$color-white;
   }
 
   &:disabled{
     border:0;
     cursor:default;
     background-color:#606060;
-    color:#fff;
+    color:$color-white;
   }
 }
 
@@ -59,17 +59,17 @@
 	letter-spacing:1.2px;
 	cursor:pointer;
 	background-color:transparent;
-	color:#fff;
-	border:1.5px solid #fff;
+	color:$color-white;
+	border:1.5px solid $color-white;
 	border-radius:0;
 	padding:1em;
 
   &:hover{
-    background-color: #fff;
+    background-color: $color-white;
     color:#e68f1a;
   }
   &:active{
-    background-color: #fff;
+    background-color: $color-white;
     color:#e68f1a;
   }
 
@@ -77,7 +77,7 @@
     border:0;
     cursor:default;
     background-color:#606060;
-    color:#fff;
+    color:$color-white;
   }
 }
 
@@ -87,12 +87,12 @@
 	letter-spacing:1.2px;
 	cursor:pointer;
 	background-color:#3765a3;
-	color:#fff;
+	color:$color-white;
 	border-radius:0;
 	padding:.5em 1em;
 
   &:hover{
-    background-color:#fff;
+    background-color:$color-white;
     color:#3765a3;
   }
 }
@@ -103,12 +103,12 @@
 	letter-spacing:1.2px;
 	cursor:pointer;
 	background-color:#dd4a38;
-	color:#fff;
+	color:$color-white;
 	border-radius:0;
 	padding:.5em 1em;
 
   &:hover{
-    background-color:#fff;
+    background-color:$color-white;
     color:#dd4a38;
   }
 }
