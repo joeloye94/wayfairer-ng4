@@ -1,0 +1,114 @@
+/*button1*/
+.button1{
+	font-family:'neucharegular';
+	letter-spacing:1.2px;
+	cursor:pointer;
+	background-color:#ffeda2;
+	color:#e68f1a;
+	border-radius:0;
+	padding:1em;
+
+  &:hover{
+    background-color: #e68f1a;
+    color:#fff;
+  }
+  &:active{
+    background-color:#964e0c;
+    color:#fff;
+  }
+
+  &:disabled{
+    border:0;
+    cursor:default;
+    background-color:#606060;
+    color:#fff;
+  }
+}
+
+/*button2*/
+
+.button2{
+	font-family:'neucharegular';
+	letter-spacing:1.2px;
+	cursor:pointer;
+	background-color:#e68f1a;
+	color:#fff;
+	border-radius:0;
+	padding:1em;
+
+  &:hover{
+    background-color: #fff;
+    color:#e68f1a;
+  }
+  &:active{
+    background-color:#964e0c;
+    color:#fff;
+  }
+
+  &:disabled{
+    border:0;
+    cursor:default;
+    background-color:#606060;
+    color:#fff;
+  }
+}
+
+/*button3*/
+.button3{
+	font-family:'neucharegular';
+	letter-spacing:1.2px;
+	cursor:pointer;
+	background-color:transparent;
+	color:#fff;
+	border:1.5px solid #fff;
+	border-radius:0;
+	padding:1em;
+
+  &:hover{
+    background-color: #fff;
+    color:#e68f1a;
+  }
+  &:active{
+    background-color: #fff;
+    color:#e68f1a;
+  }
+
+  &:disabled{
+    border:0;
+    cursor:default;
+    background-color:#606060;
+    color:#fff;
+  }
+}
+
+/*button fb*/
+.button-fb{
+	font-family:'neucharegular';
+	letter-spacing:1.2px;
+	cursor:pointer;
+	background-color:#3765a3;
+	color:#fff;
+	border-radius:0;
+	padding:.5em 1em;
+
+  &:hover{
+    background-color:#fff;
+    color:#3765a3;
+  }
+}
+
+/*button google plus*/
+.button-googlep{
+	font-family:'neucharegular';
+	letter-spacing:1.2px;
+	cursor:pointer;
+	background-color:#dd4a38;
+	color:#fff;
+	border-radius:0;
+	padding:.5em 1em;
+
+  &:hover{
+    background-color:#fff;
+    color:#dd4a38;
+  }
+}
